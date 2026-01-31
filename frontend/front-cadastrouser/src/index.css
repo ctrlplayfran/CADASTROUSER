@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --cor-primaria: #117765;
+  --cor-secundaria: #2d8f7d;
+  --cor-fundo:  #48a894;
+  --cor-texto: #000000;
+  --cor-sucesso: #64c0ac ;
+  --cor-extra: #7fd8c3 ;
+}
+
+body{
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+  135deg,
+  #117765 0%,
+  #2d8f7d 30%,
+  #48a894 60%,
+  #7fd8c3 100%
+);
+
+
+
+}
